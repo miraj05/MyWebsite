@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Photo Gallery</title>
+  <meta charset="utf-8">
+  <meta name="Description" content="This is the page for some photos of the jerseys and the soccer balls and the teammates">
+  <meta name="keywords" content="Jerseys, Feild, Cleats, New skills">
+</head>
+<body>
+
+    <main>
+    <header>
+  <h1>Photo Gallery</h1>
+</header>
+
+    <section>
+    <h2>New fresh photos of soccer stuff</h2>
+    
