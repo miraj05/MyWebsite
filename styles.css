@@ -2,9 +2,15 @@ section {
   color: green;
 }
 
+body   {
+    background-color: green;
+}
+
 
 
 p {
 font-size: 23px;
 color: Blue;
 }
+
+{ background-color: yellow; }
