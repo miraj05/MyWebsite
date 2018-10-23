@@ -1,4 +1,4 @@
-section {
+footer {
   color: green;
 }
 
@@ -9,7 +9,12 @@ body   {
 
 
 
-p {
+section > p {
 font-size: 23px;
 color: Blue;
+}
+
+#section3 {
+font-size: 25px;
+  color: red;
 }
