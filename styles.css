@@ -22,13 +22,13 @@ main header h1 {
 
 nav {
 	border-style: solid;
-	border-width: 5px;
-	font-size: 22px;
-	text-indent: 52px;
+	border-width: 10px;
+	font-size: 36px;
+	text-indent: 28px;
 	text-decoration: overline;
 	color: #2B00DD;
 	background-color: #FFFD16;
-	border-radius: 21px;
+	border-radius: 3px;
 	margin-top: 0px;
 }
 
