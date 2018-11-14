@@ -30,6 +30,8 @@ nav {
 	background-color: #FFFD16;
 	border-radius: 3px;
 	margin-top: 0px;
+	margin-right: 331px;
+	margin-left: 73px;
 }
 
 .mainArticle {
@@ -60,8 +62,8 @@ h2 {
 	-webkit-box-shadow: 0px 0px #FFFFFF;
 	box-shadow: 0px 0px #FFFFFF;
 	margin-top: 30px;
-	margin-right: 35px;
-	margin-left: 9px;
+	margin-right: 537px;
+	margin-left: 25px;
 	margin-bottom: 25px;
 	background-image: -webkit-linear-gradient(270deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
