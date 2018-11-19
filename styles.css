@@ -4,18 +4,24 @@ footer {
 
 
 body   {
-	background-color: #FFFFFF;
+	background-color: #11BD0F;
 	text-shadow: 0px 0px #970002;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,249,249,1.00) 0%,rgba(252,248,246,1.00) 0%,rgba(255,0,0,1.00) 0%,rgba(34,209,9,1.00) 0%,rgba(30,212,9,1.00) 100%,rgba(255,255,255,1.00) 100%,rgba(255,0,0,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,249,249,1.00) 0%,rgba(252,248,246,1.00) 0%,rgba(255,0,0,1.00) 0%,rgba(34,209,9,1.00) 0%,rgba(30,212,9,1.00) 100%,rgba(255,255,255,1.00) 100%,rgba(255,0,0,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,249,249,1.00) 0%,rgba(252,248,246,1.00) 0%,rgba(255,0,0,1.00) 0%,rgba(34,209,9,1.00) 0%,rgba(30,212,9,1.00) 100%,rgba(255,255,255,1.00) 100%,rgba(255,0,0,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,249,249,1.00) 0%,rgba(252,248,246,1.00) 0%,rgba(255,0,0,1.00) 0%,rgba(34,209,9,1.00) 0%,rgba(30,212,9,1.00) 100%,rgba(255,255,255,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	-webkit-box-shadow: 0px 0px #FFFFFF;
 	box-shadow: 0px 0px #FFFFFF;
 	color: #FFFFFF;
 }
 main header h1 {
 	color: #0900E9;
+}
+
+
+h1  {
+background-color:red;
+	animation-name: h1;
+	animation-duration:1s;
+	animation-iteration-count:2;
+	amimation-direction:normal;
+	animation-fill-mode: forwards
 }
 
 
@@ -49,18 +55,21 @@ nav {
 p {
 	font-size: 25px;
 	color: #FF0004;
-	width: 519px;
 	height: auto;
 	margin-top: 0px;
 	margin-right: 0px;
 	top: auto;
+	min-width: 150px;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
 }
 h2 {
 	color: #F0E712;
 	border-width: medium;
-	background-color: #FFFFFF;
-	-webkit-box-shadow: 0px 0px #FFFFFF;
-	box-shadow: 0px 0px #FFFFFF;
+	background-color: #EFF500;
+	-webkit-box-shadow: 0px 0px #CEF300;
+	box-shadow: 0px 0px #CEF300;
 	margin-top: 30px;
 	margin-right: 537px;
 	margin-left: 25px;
@@ -69,7 +78,22 @@ h2 {
 	background-image: -moz-linear-gradient(270deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
+	text-shadow: 0px 0px #EBF900;
 }
 aside {
+
+}
+
+@keyframes h1 {
+	0%{background-color:yellow;}
+}
+	
+
+@media screen and (max-width:500px){
+body {
+	text-shadow: 0px 0px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
 
 }
