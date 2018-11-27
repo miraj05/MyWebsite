@@ -66,24 +66,35 @@ p {
 	box-shadow: 0px 0px;
 }
 h2 {
-	color: #F0E712;
 	border-width: medium;
 	background-color: #EFF500;
-	-webkit-box-shadow: 0px 0px #BEE000;
-	box-shadow: 0px 0px #BEE000;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
 	margin-top: 30px;
 	margin-left: 0px;
 	margin-bottom: 25px;
-	background-image: -webkit-linear-gradient(270deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(0,33,192,1.00) 0%,rgba(23,29,174,1.00) 100%,rgba(255,0,0,1.00) 100%);
-	text-shadow: 0px 0px #EBF900;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,33,192,1.00) 100%,rgba(255,0,0,1.00) 100%,rgba(23,29,174,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,33,192,1.00) 100%,rgba(255,0,0,1.00) 100%,rgba(23,29,174,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,33,192,1.00) 100%,rgba(255,0,0,1.00) 100%,rgba(23,29,174,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,33,192,1.00) 100%,rgba(255,0,0,1.00) 100%,rgba(23,29,174,1.00) 100%);
+	text-shadow: 0px 0px;
 	margin-right: 280px;
+	color: #F8FF00;
 }
 aside {
 
 }
+body img {
+	margin-left: 508px;
+	margin-top: 8px;
+	margin-right: 286px;
+	padding-left: 58px;
+	padding-top: 7px;
+	padding-bottom: 0px;
+}
+
+
+
 
 @keyframes h1 {
 	0%{background-color:yellow;}
